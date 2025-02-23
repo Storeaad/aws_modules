@@ -5,7 +5,32 @@
 
 ## Before get started
 
----
+### Environment values
+
+- os environments
+
+  ```shell
+  
+  export AWS_ACCESS_KEY_ID={your secret key}
+  export AWS_SECRET_ACCESS_KEY={your secret key}
+  
+  ```
+
+- project `.env` sample  
+
+> [!WARNING]
+> **must be change**
+>
+> 
+
+  ```
+  SLACK_HOOK_URL="https://hooks.slack.com/services/xxxxxx"
+  CHANNEL="#your-channel-name"
+  BOT_NAME="test-app"
+  ``` 
+
+
+
 
 ### Install package manager
 
