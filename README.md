@@ -24,6 +24,7 @@ uv sync
 ### Run command
 
 ```shell
-uv run python3 
+cd src
+uv run python3 billing.py 
 ```
 
