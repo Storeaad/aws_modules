@@ -1,7 +1,7 @@
 import logging
 
 from logging import config
-from src.settings.slack import SlackLoader, SLACK_CONFIG
+from settings.slack import SlackLoader, SLACK_CONFIG
 
 
 LOGGING_CONFIG = {

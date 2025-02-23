@@ -4,7 +4,7 @@ import logging
 from logging.handlers import HTTPHandler
 from typing import Dict, Any
 from urllib.parse import urlparse
-from src.settings.env import SLACK_HOOK_URL, BOT_NAME, CHANNEL
+from settings.env import SLACK_HOOK_URL, BOT_NAME, CHANNEL
 
 SLACK_CONFIG = {
     "handlers": {

@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 
 import boto3
 
-from src.settings.logger import logger_setting
+from settings.logger import logger_setting
 
 TODAY = datetime.today()
 CLIENT = boto3.client("ce")
